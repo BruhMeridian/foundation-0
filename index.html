@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title> My First HTML page</title>
+        <!--changed backgroud color 
+            added borderes to the paragraph-->>
+        <style>
+            #specialText{
+                color: rgb(8, 126, 123);
+            }
+            body {
+                font-family: Arial, sans-serif;
+                background-color: rgb(212, 199, 19);
+            }
+            h1{
+                color: rgb(4, 5, 83);
+            }
+            p{
+                color: rgb(198, 22, 22);
+                border-style: double ;
+                border-color: black;
+            }
+
+            .highlight{
+                background-color: rgb(219, 222, 16);
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Welcome to My Page</h1>
+        <p>This is a paragraph. HTML is fun!</p>
+
+        <!--- Add an `<h2>` tag  and ordered list-->
+
+        <h2>These are the things primarily I like:</h2>
+
+        <ol>
+            <li>Food.</li>
+            <li>Anime.</li>
+            <li>Tech.</li>
+        </ol>
+          <!-- added a link using <a> tag-->
+        <a href = "https://www.youtube.com/watch?v=jfKfPfyJRdk">Check this out, I listen to these kind of songs often.</a>
+        <p class="highlight"> Just letting you know i have used highlight here.</p> <!--added a class-->
+        <p id="specialText">Heyyy special text is used here.</p>   <!--added ID-->
+
+        
+
+    </body>
+
+    <script>
+            console.log("My name is Akash Meshram and you can call me AnteMeridian"); //print name
+            //printed some calculations
+            console.log(99+15);
+            console.log(90-19);
+            console.log(8*4);
+            console.log(88/2);
+
+            let city = "Alibag";
+            console.log("My favorite city is "+ city);
+            
+            let a = 81;
+            let b = 11;
+            console.log(a+b);
+
+            //tried functions
+            function sayHello(name) {
+                
+                console.log("Hello "+ name+"!");
+              }
+                   sayHello("AKash");
+                   sayHello("ante");
+                   sayHello("Sid");
+                   sayHello("gupta");
+
+            
+            function subnum(c,d) {
+                let sub = c - d;
+                return sub;
+                console.log(sub);
+            }  
+                let result = subnum(9,8);
+                console.log(result);
+                
+                let result1 = subnum(88,44);
+                console.log(result1);
+
+                let result2 = subnum(12,9);
+                console.log(result2);
+
+        const birthyear = 2001;        
+         
+        let food = ["paneer", "mutton","sandwich"]; //array
+
+        let book = {
+            title: "Deep Work",
+            author: "Cal Newport",   // object
+            PublicationYear: 2016 
+
+        };
+
+
+    </script>
+</html>
